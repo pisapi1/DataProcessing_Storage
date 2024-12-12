@@ -1,4 +1,4 @@
-**ONLY** if you're using a Gradle in your Java environment to build (as I did), add the following:
+**ONLY** if you're using a Gradle in your Java environment to build (as I did), add the following to the "build.gradle.kts":
 
 *// Add these configurations to enable preview features*
 
