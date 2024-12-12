@@ -71,13 +71,13 @@ public class InMemoryDB {
         inmemoryDB.put("A", 5);
         System.out.println("A (before commit): " + inmemoryDB.get("A"));
 
-        System.out.println("\n4. Update within transaction:");
+       //System.out.println("\n4. Update within transaction:");
         inmemoryDB.put("A", 6);
-        System.out.println("A (before commit): " + inmemoryDB.get("A"));
+        //System.out.println("A (before commit): " + inmemoryDB.get("A"));
 
         System.out.println("\n5. Commit transaction:");
         inmemoryDB.commit();
-        System.out.println("A (after commit): " + inmemoryDB.get("A"));
+        System.out.println("A (AFTER COMMIT): " + inmemoryDB.get("A"));
 
         System.out.println("\n6. Commit without transaction:");
         try {
